@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    width: 100vw; 
+    
+}
+
+.menu-items a {
+    color: white;
+    margin-right: 10px;
+    
+}
+
+.menu-items a.active {
+    background-color: grey;
+}
+
+.menu-items, .social-media-icons {
+    margin: 10px 70px 0 10px;
+    
+}
+.search button {
+    width: 200px;
+}
+.search {
+    margin-top: 10px;
+    margin-right: 150px;
+}
+.fa-search {
+    width: 15px;
+    background-color: black;
+    color: white;
+}
+
+.fa {
+    color: white;
+    margin: 10px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    flex: 80%;
+}
+.right-sidebar {
+    background-color: rgb(28, 28, 61);
+    flex: 20%;
+}
+.right-sidebar .side-content {
+    background-color: white;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.data {
+    background-color: darkblue;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+.data a {
+    color: white;
+    font-size: 18px;
+    
+}
+.side-content p {
+    margin: 10px;
+}
+.side-content h1 {
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+}
+.side-content ul li {
+    margin: 5px;
+}
+.row1 {
+    background-color: rgb(0, 132, 255);
+
+}
+.row1 h2 {
+    color: white;
+    margin-left: 30px;
+}
+.row1 img {
+    margin: 10px 30px;
+    width: 250px;
+}
+.row2 {
+    display: flex;
+    background-color: rgb(0, 132, 255);
+    flex: content;
+}
+.row2 p {
+    color: white;
+    background-color: rgb(22, 107, 141);
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+.row2 p a {
+    color: white;
+}
+.row3 {
+    display: flex;
+    background-color: rgb(0, 132, 255);
+}
+.row3 .filer {
+    border-bottom-right-radius: 60%;
+    margin-right: 10px;
+}
+.txxt {
+    
+    text-align: center;
+    line-height: 60px
+}
+
+.row3 div h1 {
+    color: white;
+    font-size: 35px;
+}
+.row3 div h5 {
+    color: red;
+    font-size: 25px;
+}
+.row3 div p {
+    color: white;
+    font-size: 20px;
+}
+
+.anniversary {
+    display: flex;
+    margin-top: 20px;
+    
+   
+}
+.lg1 {
+    margin-right: 15px;
+}
+
+.lg {
+    width: 150px;
+    height: 60px;
+    
+}
+.anniversary div {
+    margin-left: 0;
+   
+}
+.anniversary h2 {
+    margin-right: 30px;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: row;
+}
+.main .row4 .links {
+    flex: 35%;
+    
+}
+.images {
+    display: flex;
+}
+.image1 {
+    border: 2px solid blue;
+    width: 150px;
+    text-align: center;
+}
+
+.col-1, .col-2, .col-3 {
+    margin: 5px;
+}
+.latest-news {
+    flex: 45%;    
+}
+
+.latest-news .heading {
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.row5 {
+    background-color: blue;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 5px;
+}
+.row5 p {
+    margin-top: 30px;
+    flex: content;
+      
+}
+
+.row5 p a {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.row6 {
+    background-color: rgb(28, 28, 61);
+    height: 50px;
+}
+
+.footer {
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    
+}
+.footer .row01 {
+    display: flex;
+    
+}
+.footer .row01 p {
+    margin: 10px;
+    flex: content;
+    
+}
+.footer .row01 p a {
+    color: white;
+}
+.footer .row02 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer .row03 p {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
